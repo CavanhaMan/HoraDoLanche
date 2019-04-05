@@ -1,0 +1,38 @@
+<!-- Rodrigo CavanhaMan -->
+<!-- ARQUIVO DE ESTILOS PARA ECONOMIZAR CÓDIGO E FACILITAR EDIÇÃO -->
+<resources>
+    <!-- PARA MUDAR O NOME DA APLICAÇÃO NA TELA: VÁ EM AndroidManifest.xml E ALTERE: android:label="@string/app_name" -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_orange_dark</item><!-- ESTA COR MUDA A COR DA ACTIONBAR (BARRA DE TÍTULO) -->
+        <item name="colorPrimaryDark">@color/colorAccent</item><!-- ESTA COR MUDA A COR DA Barra de Status do Celular -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextoTitulo">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_orange_dark</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <style name="TextoDescricao">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <style name="Botao">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_gravity">fill_vertical</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">#ff8800</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
