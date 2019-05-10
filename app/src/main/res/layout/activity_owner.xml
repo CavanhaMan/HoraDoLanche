@@ -27,7 +27,7 @@
         android:src="@drawable/horadolanche"/>
 
     <!-- CRIA A ROLAGEM PARA A LISTA -->
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:id="@+id/rolapizzas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -35,7 +35,7 @@
         android:layout_row="1">
 
         <!-- CRIA A LISTA -->
-        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <GridLayout
             android:id="@+id/listapizzas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,6 +43,7 @@
             android:rowCount="30">
 
             <!-- **************** MENU 1 (0 1)********************* -->
+
             <ImageView
                 android:id="@+id/lanche1"
                 style="@style/Botao"
@@ -54,7 +55,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lanchecochinha" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu1"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -72,6 +73,7 @@
                 android:layout_row="1"
                 android:text="Cochinha de frango" />
 
+
             <!-- **************** MENU 2 (2 3)********************* -->
             <ImageView
                 android:id="@+id/lanche2"
@@ -84,7 +86,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lancheempada" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu2"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -114,7 +116,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lancheenroladinho" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu3"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -144,7 +146,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lancheespetinho" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu4"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -174,7 +176,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lanchemaia" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu5"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -204,7 +206,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lanchepastel" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu6"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -234,7 +236,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lanchepastelao" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu7"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -264,7 +266,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lanchesanduba" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu8"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
@@ -294,7 +296,7 @@
                 android:background="#ffe6cc"
                 android:src="@drawable/lanchetorta" />
 
-            <TextView
+            <CheckBox
                 android:id="@+id/menu9"
                 style="@style/TextoTitulo"
                 android:layout_width="match_parent"
